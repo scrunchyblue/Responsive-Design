@@ -7,7 +7,11 @@
     font-size: 14px;
 }
 .nav-item {
-    margin-left: 58px;
+    /* margin-left: 58px; initially did this for index.html to be precise, but it's not appropriate for all of them.  */
+}
+
+.active {
+    color: #461134;
 }
 
 h3 {
@@ -45,11 +49,6 @@ h5 {
     color: #461134;
     font-family: 'Montserrat', sans-serif;
     font-size: 16px;
-}
-
- {
-
-
 }
 
 /* @media screen and (max-width: 600px)
