@@ -1,16 +1,24 @@
 .h2 {
     font-size: 72px;
 }
-.nav-link {
-    color: #9F2476;
-    font-family: 'Montserrat', 'sans-serif';
-    font-size: 14px;
-}
+
 .nav-item {
-    /* margin-left: 58px; initially did this for index.html to be precise, but it's not appropriate for all of them.  */
+    margin-left: 60px;
 }
 
+/* .nav-item:hover 
+    color: #9F2476; */
+
+.nav-link {
+    color: #9F2476;
+}
+
+/* .form-group
+    
+*/
+
 .active {
+    /* color: #D46AB1; */
     color: #461134;
 }
 
@@ -59,6 +67,7 @@ h5 {
     height: 45vh;
     padding: 5% 10% 10% 10%;
     }
+    
 .bright {
     background:white;
     }
